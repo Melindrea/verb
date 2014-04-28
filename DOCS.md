@@ -62,7 +62,7 @@ npm i verb --save
 ```
 
 ## Config files
-For the needs of most projects, Verb won't require any configuration. The documentation, templates and data from packcage.json will be enough.
+For the needs of most projects, Verb won't require any configuration. The documentation, templates and data from `package.json` will be enough.
 
 However, if you want to change how Verb builds documentation for your project there are a couple of options:
 
@@ -108,7 +108,7 @@ Type: `string`
 
 Default: `undefined`
 
-Lo-Dash opts...
+Lo-Dash opts ...
 
 ### namespace
 Type: `boolean|string`
@@ -164,7 +164,7 @@ Example:
 changelog()
 ```
 
-Automatically use data from a valid, YAML-formatted [CHANGELOG](./CHANGELOG) file in the root of a project to generate a markdown changelog.
+Automatically use data from a valid, YAML-formatted [CHANGELOG](./docs/CHANGELOG) file in the root of a project to generate a markdown changelog.
 
 Usage:
 
